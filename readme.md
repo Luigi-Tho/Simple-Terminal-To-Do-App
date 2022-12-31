@@ -58,3 +58,26 @@ Should work for Mac & Windows
 2. download the code as a zip file
 3. unzip file
 4. click on executable file to open the program
+
+### If Download is From Main Branch
+If the zip file was downloaded from the main branch, in all honesty, it's probably easliest to redownload it from the correct branch. Otherwise, you will have to run the code yourself to get the executable for your OS:
+
+
+Prerequisites:
+- Visual Studio Code (or an IDE of your choice) is installed
+- C++ is set up for your computer and IDE (Setting Up C++ for VS Code ([Windows](https://code.visualstudio.com/docs/cpp/config-mingw)) ([Mac](https://code.visualstudio.com/docs/cpp/config-clang-mac)))
+- __NOTE__: I used `nlohmann/json` to get JSON to work for C++. I don't think downloading it is required to run the code, but I haven't tested it yet.
+
+Running the code (using VS Code):
+
+1. Open visual studio code
+2. Open the unzipped folder in visual studio code
+3. open the terminal by going to "Terminal > New Terminal" or by using the shortcut "Ctrl + shft + `" (works for both Windows and Mac)
+
+  ![Terminal > New Terminal](readme_pics/Screenshot%202022-12-31%20at%2000.38.04.png)
+
+4. In the terminal, type in the following command: `g++ main.cpp -o main` for Mac or `g++ main.cpp -o main.exe` for Windows. This will compile the code into an executable you can use like a normal app.
+   ![Compile Code for Mac](readme_pics/Screenshot%202022-12-31%20at%2000.39.03.png)
+   ![Compile Code for Windows](readme_pics/Screenshot%202022-12-31%20at%2000.39.57.png)
+
+That should be all you need to get the executable you need to start using the to-do program :)

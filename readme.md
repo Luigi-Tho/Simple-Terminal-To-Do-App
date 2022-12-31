@@ -42,6 +42,7 @@ Interacting with the to-do program is done with a set of commands, listed as fol
 - __exit__ - exits the program
 
 __Command Examples__:
+\
 ![Add Command](readme_pics/Screenshot%202022-12-30%20at%2023.49.40.png)
 \
 \

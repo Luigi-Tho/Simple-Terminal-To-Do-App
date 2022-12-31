@@ -74,6 +74,7 @@ int main()
             (command.find("help") != string::npos) || (command.find("commands") != string::npos))
         {
             cout << "Commands:" << std::endl;
+            cout << "help/commands\tLists valid commands" << std::endl;
             cout << "add\tAdd a task to list" << std::endl;
             cout << "delete\tDelete a task from list" << std::endl;
             cout << "check\tMarks a task in a list as done" << std::endl;
@@ -81,6 +82,7 @@ int main()
             cout << "clear\tClear all tasks in a list" << std::endl;
             cout << "save\tSaves all tasks in a list to disk" << std::endl;
             cout << "load\tLoads a list from disk" << std::endl;
+            cout << "exit\tCloses the to-do program" << std::endl;
             cout << endl;
         }
 
